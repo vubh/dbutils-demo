@@ -14,7 +14,7 @@ public class TestQueryRunner extends BaseDao {
     public void insertUser() throws Exception {
         String sql = "insert into t_user(name,age,description)values(?,?,?)";
 
-        int rows = queryRunner.update(sql, new UserEntity("test1", 10, "描述"));
+        int rows = queryRunner.update(sql,"test1", 10, "描述");
         System.out.println("影响行数：" + rows);
 
         BigInteger id = queryRunner.insert(sql, new ScalarHandler<>(), "test1", 10, "描述");
