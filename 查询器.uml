@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.commons.dbutils.AsyncQueryRunner</OriginalElement>
+  <nodes>
+    <node x="0.0" y="80.0">org.apache.commons.dbutils.QueryRunner</node>
+    <node x="55.75" y="0.0">org.apache.commons.dbutils.AbstractQueryRunner</node>
+    <node x="144.0" y="80.0">org.apache.commons.dbutils.AsyncQueryRunner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.commons.dbutils.QueryRunner" target="org.apache.commons.dbutils.AbstractQueryRunner">
+      <point x="0.0" y="-15.0" />
+      <point x="62.0" y="55.0" />
+      <point x="99.25" y="55.0" />
+      <point x="-43.5" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.AsyncQueryRunner" target="org.apache.commons.dbutils.AbstractQueryRunner">
+      <point x="0.0" y="-15.0" />
+      <point x="223.5" y="55.0" />
+      <point x="186.25" y="55.0" />
+      <point x="43.5" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="152.0" y="134.0" />
+  <SelectedNodes>
+    <node>org.apache.commons.dbutils.QueryRunner</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

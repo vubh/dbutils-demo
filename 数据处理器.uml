@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.commons.dbutils.handlers.BeanListHandler</OriginalElement>
+  <nodes>
+    <node x="789.0" y="100.0">org.apache.commons.dbutils.handlers.AbstractListHandler</node>
+    <node x="798.5" y="180.0">org.apache.commons.dbutils.handlers.ArrayListHandler</node>
+    <node x="408.24999999999994" y="180.0">org.apache.commons.dbutils.handlers.KeyedHandler</node>
+    <node x="161.99999999999994" y="100.0">org.apache.commons.dbutils.handlers.BeanHandler</node>
+    <node x="240.24999999999994" y="180.0">org.apache.commons.dbutils.handlers.BeanMapHandler</node>
+    <node x="503.99999999999994" y="100.0">org.apache.commons.dbutils.handlers.ArrayHandler</node>
+    <node x="0.0" y="100.0">org.apache.commons.dbutils.handlers.BeanListHandler</node>
+    <node x="649.0" y="100.0">org.apache.commons.dbutils.handlers.MapHandler</node>
+    <node x="1121.0" y="100.0">org.apache.commons.dbutils.BaseResultSetHandler</node>
+    <node x="973.0" y="100.0">org.apache.commons.dbutils.handlers.ScalarHandler</node>
+    <node x="303.99999999999994" y="100.0">org.apache.commons.dbutils.handlers.AbstractKeyedHandler</node>
+    <node x="963.5" y="180.0">org.apache.commons.dbutils.handlers.MapListHandler</node>
+    <node x="606.75" y="180.0">org.apache.commons.dbutils.handlers.ColumnListHandler</node>
+    <node x="563.25" y="0.0">org.apache.commons.dbutils.ResultSetHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.commons.dbutils.handlers.MapListHandler" target="org.apache.commons.dbutils.handlers.AbstractListHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="1033.5" y="155.0" />
+      <point x="925.6666666666665" y="155.0" />
+      <point x="54.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.ArrayHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="566.5" y="80.0" />
+      <point x="628.4375" y="80.0" />
+      <point x="-9.3125" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.ScalarHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="1037.0" y="60.0" />
+      <point x="684.3125" y="60.0" />
+      <point x="46.5625" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.KeyedHandler" target="org.apache.commons.dbutils.handlers.AbstractKeyedHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="473.74999999999994" y="155.0" />
+      <point x="438.99999999999994" y="155.0" />
+      <point x="45.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.BaseResultSetHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="1209.0" y="50.0" />
+      <point x="702.9375" y="50.0" />
+      <point x="65.1875" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.AbstractKeyedHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="393.99999999999994" y="70.0" />
+      <point x="609.8125" y="70.0" />
+      <point x="-27.9375" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.BeanMapHandler" target="org.apache.commons.dbutils.handlers.AbstractKeyedHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="314.24999999999994" y="155.0" />
+      <point x="348.99999999999994" y="155.0" />
+      <point x="-45.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.ArrayListHandler" target="org.apache.commons.dbutils.handlers.AbstractListHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.BeanListHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="71.0" y="50.0" />
+      <point x="572.5625" y="50.0" />
+      <point x="-65.1875" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.MapHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="709.0" y="80.0" />
+      <point x="647.0625" y="80.0" />
+      <point x="9.3125" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.BeanHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="222.99999999999994" y="60.0" />
+      <point x="591.1875" y="60.0" />
+      <point x="-46.5625" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.ColumnListHandler" target="org.apache.commons.dbutils.handlers.AbstractListHandler">
+      <point x="1.1368683772161603E-13" y="-15.0" />
+      <point x="686.25" y="155.0" />
+      <point x="816.3333333333333" y="155.0" />
+      <point x="-54.66666666666663" y="15.0" />
+    </edge>
+    <edge source="org.apache.commons.dbutils.handlers.AbstractListHandler" target="org.apache.commons.dbutils.ResultSetHandler">
+      <point x="0.0" y="-15.0" />
+      <point x="871.0" y="70.0" />
+      <point x="665.6875" y="70.0" />
+      <point x="27.9375" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="583.5" y="139.5" />
+  <SelectedNodes>
+    <node>org.apache.commons.dbutils.handlers.BeanHandler</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
