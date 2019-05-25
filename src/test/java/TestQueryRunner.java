@@ -1,5 +1,4 @@
 import com.vubh.learn.core.BaseDao;
-import com.vubh.learn.entity.UserEntity;
 import org.apache.commons.dbutils.handlers.*;
 import org.junit.Test;
 
